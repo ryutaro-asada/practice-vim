@@ -25,10 +25,6 @@ let g:NERDTreeDirArrowCollapsible="~"
 "let g:jedi#auto_initialization = 0
 
 
-"augroup black_on_save
-"  autocmd!
-"  autocmd BufWritePre *.py Black
-"augroup end
 
 
 
