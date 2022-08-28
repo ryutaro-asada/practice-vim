@@ -11,7 +11,7 @@ inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 inoremap <expr> <cr>    pumvisible() ? asyncomplete#close_popup() : "\<cr>"
 
-let g:winresizer_gui_enable = 10
+let g:winresizer_gui_enable = 1
 "let g:winresizer_start_key = '<C-T>'
 
 
